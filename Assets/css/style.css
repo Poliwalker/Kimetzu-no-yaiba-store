@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rock+Salt&display=swap');
-@import url('http://db.onlinewebfonts.com/c/08f5d0ff76c06129945cdef56193e70a?family=Blood+Crow');
 
 
 *{
@@ -198,9 +197,9 @@ button:hover{
     font-weight: 700;
     font-size: 45px;
     line-height: 45px;
-    font-family: "Blood Crow";
     margin-bottom: 30px;
     color: var(--red);
+    font-family: 'Blood crow';
 }
 
 .text-container p{
@@ -376,3 +375,42 @@ button:hover{
 .cards:nth-child(7){
     background-color:#614d93;
 }
+
+/* contact */
+
+/* #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:70px 10px;
+    gap: 40px;
+    width: 100%;
+}
+
+.card-contact-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact-title{
+    text-align: center;
+}
+
+.card-contact{
+    display: flex;
+}
+
+.card-contact img{
+    width: 350px;
+    height: 400px;
+}
+
+.span-contact{
+    width: 90%;
+    height: 2px;
+    background-color: #0266b6;
+} */
+
