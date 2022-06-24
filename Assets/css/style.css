@@ -276,6 +276,10 @@ button:hover{
     font-family: 'Blood Crow';
 }
 
+.description-text p{
+    font-family: 'Impact';
+}
+
 @media (max-width:991px){
     #about-us{
         justify-content: center;
@@ -341,6 +345,7 @@ button:hover{
 .cards img{
     width: 300px;
     height: 350px;
+
 }
 
 .cards:first-child{
