@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rock+Salt&display=swap');
+@import url('http://fonts.cdnfonts.com/css/blood-crow');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Josefin Sans' sans-serif;
+}
+
+:root{
+    --black:#000000;
+    --red:#ed1b24;
+    --bluelight:#0266b6;
+    --green:#3eb782;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    color: white;
+}
+
+.section-container{
+    background-color: var(--black);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 0px;
+    width: 95%;
+    max-width: 1300px;
+}
+
+button {
+    background-color: var(--bluelight);
+    border: 0px solid black;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4 linear;
+}
+
+button:hover{
+    background-color: #0d1d49;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.section-p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.section-p-small{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/* header */
+
+.header{
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 50px;
+}
+
+.header-container{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+
+.logo-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img{
+    height: 100px;
+}
+
+.navbar, .navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list{
+    gap: 50px;
+}
+
+.navbar i{
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
+}
+
+.navbar a{
+    color:var(--red);
+    font-size: 20px;
+    font-family: 'Blood Crow', sans-serif;
+}
+
+.navbar-list li:last-child > a{
+    border: 1px solid rgb(255, 22, 22);
+    font-size: 16px;
+    padding: 8px 40px;
+    border-radius: 3px;
+    transition: all .3s linear;
+}
+
+.navbar-list li:last-child > a:hover{
+    background-color: #ff545c;
+    color: white;
+    transition: all .3s linear;
+    font-weight: 700;
+}
+
+@media (max-width:1079px){
+    .header{
+        padding:0px 60px 0px 60px
+    }
+
+  
+    .navbar i{
+        display: block;
+    }
+
+    .navbar-list{
+        position: absolute;
+        background-color: var(--black);
+        flex-direction: column;
+        top:100px;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 100px);
+        z-index: 999;
+        display: none;
+    }
+
+    #toggle-menu:checked + .navbar-list{
+        display: flex;
+    }
+}
+
+    /* hero */
+
+#hero{
+    justify-content: space-between;
+    gap: 20px;
+    padding: 70px 50px;
+}
+
+.s1{
+    padding: 81.5px 0;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    gap: 40px;
+
+}
+
+.text-container{
+    max-width:max(20%, 300px);
+}
+
+.text-container h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+    font-family: 'Blood Crow Italic', sans-serif;
+    margin-bottom: 30px;
+    color: var(--red);
+}
+
+.text-container p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero-img{
+    background-image: url(/Assets/img/demon_slayer_mugen_train_pelicula_vs_serie_anime.jpg_49816522.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 350px;
+    width: 60%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+@media (max-width:934px){
+    .hero-img{
+        display: none;
+    }
+
+    .description-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .s1{
+        padding: 65px 0; 
+    }
+}
+
+/* Description */
+
+.s2{
+    background-color: var(--bluelight);
+}
+
+#about-us{
+    justify-content: space-between;
+    padding:70px 40px;
+    gap: 60px;
+}
+
+.description-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    text-align: center;
+}
+
+.description-text h2{
+    margin-bottom: 30px;
+}
+
+@media (max-width:991px){
+    #about-us{
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .description-img{
+        width: 100%;
+    }
+
+    .description-img img{
+        order: 2;
+        width: 250px;
+   
+    }
+
+    .description-text{
+        order: 1;
+        max-width: 350px;
+    }
+}
+
+/* cards */
+
+#nft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:70px 10px;
+    gap: 40px;
+    width: 100%;
+}
+
+.s3{
+    background-color: var(--green);
+}
+
+.card-title h2{
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.card-title p{
+    text-align: center;
+    max-width: 300px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cards{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.cards img{
+    width: 300px;
+    height: 350px;
+}
+
+.cards:first-child{
+    background-color: yellow;
+}
+
+.cards:nth-child(2){
+    background-color: orange;
+}
+
+.cards:nth-child(3){
+    background-color: blue;
+}
+
+.cards:nth-child(4){
+    background-color: #e62269;
+}
+
+.cards:nth-child(5){
+    background-color:#e1671c;
+}
+
+.cards:nth-child(6){
+    background-color:#6bd4ff;
+}
+
+.cards:nth-child(7){
+    background-color:#614d93;
+}
