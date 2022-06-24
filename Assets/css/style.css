@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rock+Salt&display=swap');
+@import url(//db.onlinewebfonts.com/c/08f5d0ff76c06129945cdef56193e70a?family=Blood+Crow);
 
 
 *{
@@ -197,7 +198,7 @@ button:hover{
     font-weight: 700;
     font-size: 45px;
     line-height: 45px;
-    font-family: 'Blood Crow Italic', sans-serif;
+    font-family: "Blood Crow";
     margin-bottom: 30px;
     color: var(--red);
 }
@@ -273,7 +274,7 @@ button:hover{
 
 .description-text h2{
     margin-bottom: 30px;
-    font-family: 'Blood Crow';
+    font-family: "Blood Crow";
 }
 
 .description-text p{
