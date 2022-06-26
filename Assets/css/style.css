@@ -146,6 +146,9 @@ button:hover{
         padding:0px 60px 0px 60px
     }
 
+    .navbar a{
+        font-family: 'Blood Crow';
+    }
   
     .navbar i{
         display: block;
