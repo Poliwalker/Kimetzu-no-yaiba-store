@@ -203,7 +203,7 @@ button:hover{
     line-height: 45px;
     margin-bottom: 30px;
     color: var(--red);
-    font-family: 'Blood Crow'Gloria Hallelujah;
+    font-family: 'Blood Crow' 'Gloria Hallelujah';
 }
 
 .text-container p{
@@ -277,8 +277,9 @@ button:hover{
 
 .description-text h2{
     margin-bottom: 30px;
-    font-family: "Blood Crow" Gloria Hallelujah;
+    font-family: 'Blood Crow' 'Gloria Hallelujah';
 }
+    
 
 .description-text p{
     font-family: 'Impact';
@@ -325,7 +326,7 @@ button:hover{
 .card-title h2{
  text-align: center;
  margin-bottom: 20px;
- font-family: 'Blood Crow'Gloria Hallelujah;
+ font-family: 'Blood Crow' 'Gloria Hallelujah';
 }
 
 .card-title p{
