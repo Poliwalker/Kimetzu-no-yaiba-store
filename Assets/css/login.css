@@ -1,0 +1,63 @@
+@import url("https://www.mediafont.com/storage/contents/12471/bloodcrowsci.ttf");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	width: 100%;
+}
+
+.section-login-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(50, 50, 50);
+	padding: 2.5rem 1rem;
+}
+
+.logo-login {
+	padding: 8rem 2rem 5rem;
+}
+
+.form-login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-login input {
+	padding: 15px 45px;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+
+.btn {
+	padding: 15px 113px;
+	background-color: aqua;
+	margin: 10px 0 10px 0;
+}
+
+.btn-social {
+	background-color: blue;
+	padding: 15px 45px;
+}
+
+.login-forgot {
+	color: aliceblue;
+	font-size: 12px;
+}

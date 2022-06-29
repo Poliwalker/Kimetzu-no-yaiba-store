@@ -1,262 +1,258 @@
 /* cards */
 
-#nft{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding:70px 10px;
-    gap: 40px;
-    width: 100%;
+#nft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 70px 10px;
+	gap: 40px;
+	width: 100%;
 }
 
-.s3{
-    background-color: var(--bluelight);
+.card-title h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: "Blood Crow" "Gloria Hallelujah";
 }
 
-.card-title h2{
- text-align: center;
- margin-bottom: 20px;
- font-family: 'Blood Crow' 'Gloria Hallelujah';
-}
-
-.card-title p{
-    text-align: center;
-    max-width: 300px;
+.card-title p {
+	text-align: center;
+	max-width: 300px;
 }
 
 /* cartas */
 
-.card--1{
-    background-image: url(https://www.geekmi.news/__export/1617580562885/sites/debate/img/2021/04/04/tomioka_crop1617580485936.jpg_778266140.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.card--1 {
+	background-image: url(https://www.geekmi.news/__export/1617580562885/sites/debate/img/2021/04/04/tomioka_crop1617580485936.jpg_778266140.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.cards{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:50px;
+.cards {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
 }
 
-.card__img{
-    background-image: url(https://www.geekmi.news/__export/1617580562885/sites/debate/img/2021/04/04/tomioka_crop1617580485936.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    visibility: hidden;
-    width: 100%;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+.card__img {
+	background-image: url(https://www.geekmi.news/__export/1617580562885/sites/debate/img/2021/04/04/tomioka_crop1617580485936.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	visibility: hidden;
+	width: 100%;
+	height: 235px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
 
-.card__info:hover{
-    position: absolute;
-    padding: 16px;
-    width: 100%;
-    opacity: 0.8;
-    top: 0;
-    transition: all 0.5s ease-in-out;
+.card__info:hover {
+	position: absolute;
+	padding: 16px;
+	width: 100%;
+	opacity: 0.8;
+	top: 0;
+	transition: all 0.5s ease-in-out;
 }
 
-.card__img--hover{
-    transition: all 0.5s ease-out ;
-    /* background-image: url(https://www.geekmi.news/__export/1617580562885/sites/debate/img/2021/04/04/tomioka_crop1617580485936.jpg); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    top: 0;
+.card__img--hover {
+	transition: all 0.5s ease-out;
+	/* background-image: url(https://www.geekmi.news/__export/1617580562885/sites/debate/img/2021/04/04/tomioka_crop1617580485936.jpg); */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 235px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	top: 0;
 }
 
-.card{
-    margin-right: 25px;
-    transition: all 0.5s ease-in-out;
-    background-color: #fff;
-    width: 15%;
-    height: 25%;
-    min-width: 300px;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+.card {
+	margin-right: 25px;
+	transition: all 0.5s ease-in-out;
+	background-color: #fff;
+	width: 15%;
+	height: 25%;
+	min-width: 300px;
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
 }
 
-.card:hover{
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-    transform:  scale(1.1);
+.card:hover {
+	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+	transform: scale(1.1);
 }
 
 .card__info {
-    z-index: 1000;
-    background-color: #fff;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding: 10px 24px 24px 10px;
-    text-align: center;
-    color: rgb(255, 0, 0);
+	z-index: 1000;
+	background-color: #fff;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	padding: 10px 24px 24px 10px;
+	text-align: center;
+	color: rgb(124, 98, 98);
 }
 
-.card__category{
-    text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    color: rgb(255, 0, 0);
+.card__category {
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	color: rgb(124, 98, 98);
+	font-family: cursive;
 }
 
-.card-title{
-    margin-top: 5px;
-    margin-bottom:10px ;
+.card-title {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
-.card-link{
-    font-weight: 600;
-    text-decoration: none;
+.card-link {
+	font-weight: 600;
+	text-decoration: none;
 }
 
-.card:hover .card__img--hover{
-    opacity: 1;
-    height: 100%;
+.card:hover .card__img--hover {
+	opacity: 1;
+	height: 100%;
 }
-.card:hover .card__info{
-    background-color: transparent;
-    position: relative;
-    top: 0;
-    color:#1e43ff;
-    transition: all 0.5s ease-in-out;
-}
-
-.card:hover .card__category{
-    color:#1e43ff;
+.card:hover .card__info {
+	background-color: transparent;
+	position: relative;
+	top: 0;
+	color: #1e43ff;
+	transition: all 0.5s ease-in-out;
 }
 
-.card:hover .card__info-hover{
-    opacity: 1;
-} 
+.card:hover .card__category {
+	color: #1e43ff;
+}
+
+.card:hover .card__info-hover {
+	opacity: 1;
+}
 
 /* card2 */
 
-.card--2{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--2 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover2{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover2 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* card3 */
 
-.card--3{
-    background-image: url(https://areajugones.sport.es/wp-content/uploads/2022/01/kimetsu-tengen-espadas-1080x609.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--3 {
+	background-image: url(https://areajugones.sport.es/wp-content/uploads/2022/01/kimetsu-tengen-espadas-1080x609.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover3{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover3 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* card4 */
-.card--4{
-    background-image: url(https://areajugones.sport.es/wp-content/uploads/2021/05/imagen-2021-05-10-095034-1080x609.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--4 {
+	background-image: url(https://areajugones.sport.es/wp-content/uploads/2021/05/imagen-2021-05-10-095034-1080x609.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover4{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover4 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* card5 */
-.card--5{
-    background-image: url(/Assets/img/EOSL7BQ5INBL5E3YLSVVKNTVSI.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--5 {
+	background-image: url(/Assets/img/EOSL7BQ5INBL5E3YLSVVKNTVSI.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover5{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover5 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* card6 */
-.card--6{
-    background-image: url(https://i.pinimg.com/736x/d3/2b/61/d32b61d3613ab7edd1900d04fcf2d95e.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--6 {
+	background-image: url(https://i.pinimg.com/736x/d3/2b/61/d32b61d3613ab7edd1900d04fcf2d95e.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover6{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover6 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* card7 */
-.card--7{
-    background-image: url(http://pm1.narvii.com/7359/67fe0d4f1635183d552f72d1c5158519c7bb3fd7r1-837-719v2_00.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--7 {
+	background-image: url(http://pm1.narvii.com/7359/67fe0d4f1635183d552f72d1c5158519c7bb3fd7r1-837-719v2_00.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover7{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover7 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* card8 */
-.card--8{
-    background-image: url(https://i.pinimg.com/474x/31/73/9c/31739c9b85424e04a12284ef031f27fa.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--8 {
+	background-image: url(https://i.pinimg.com/474x/31/73/9c/31739c9b85424e04a12284ef031f27fa.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover8{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover8 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 /* card9 */
-.card--9{
-    background-image: url(https://www.geekmi.news/__export/1636473596943/sites/debate/img/2021/11/09/gyomei_himejima_x2x.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card--9 {
+	background-image: url(https://www.geekmi.news/__export/1636473596943/sites/debate/img/2021/11/09/gyomei_himejima_x2x.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.card__img--hover9{
-    background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.card__img--hover9 {
+	background-image: url(https://www.egames.news/__export/1620921694718/sites/debate/img/2021/05/13/rengoku.jpg_1902800913.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
-
