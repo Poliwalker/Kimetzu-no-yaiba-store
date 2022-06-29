@@ -1,0 +1,161 @@
+
+/* contact */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:70px 10px;
+    gap: 40px;
+    width: 100%;
+}
+
+.card-contact-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact-title{
+    text-align: center;
+}
+
+.card-contact img{
+    width: 350px;
+    height: 400px;
+}
+
+/* primera card */
+
+.card-contact{
+    position: relative;
+    overflow: hidden;
+}
+
+.back-link{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 350px;
+    height: 400px;
+}
+
+.contact-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-social a{
+    color: white;
+}
+
+.back-link p{
+    font-size: 30px;
+    color:  #0266b6;
+}
+
+.contact-social i{
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-contact:hover .back-link {
+opacity: 1;
+}
+
+/* card 2 */
+
+.link-signup{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 350px;
+    height: 400px;
+}
+
+.link-signup p{
+    font-size: 30px;
+    color:  #0266b6;
+}
+
+.link-signup a{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.link-signup a:hover{
+    text-decoration: underline;
+}
+
+.card-contact:hover .link-signup{
+    opacity: 1;
+}
+
+/* card 3 */
+
+.link-login{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 350px;
+    height: 400px;
+}
+
+.link-login p{
+    font-size: 30px;
+    color:  #0266b6;
+}
+
+.link-login a{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.link-login a:hover{
+    text-decoration: underline;
+}
+
+.card-contact:hover .link-login{
+    opacity: 1;
+}
+
+
+
+
+/* linea divisoria azul */
+.span-contact{
+    width: 90%;
+    height: 2px;
+    background-color: #0266b6;
+}
