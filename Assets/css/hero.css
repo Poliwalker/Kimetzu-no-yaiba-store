@@ -48,7 +48,7 @@
         border-radius: 5px;
     }
     
-    @media (max-width:1178px){
+    @media (max-width:998px){
         .hero-img{
             display: none;
         }
