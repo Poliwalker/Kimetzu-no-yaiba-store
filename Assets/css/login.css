@@ -22,7 +22,6 @@ body {
 	height: 100%;
 	max-width: 1300px;
 	margin: 0 auto;
-	padding: 3rem 1rem;
 }
 
 .section1 {
@@ -30,7 +29,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 5.6rem 0;
+	padding: 2rem 0;
+	background-color: white;
+	height: 100%;
 }
 
 .form-login {
@@ -38,23 +39,20 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	height: 100%;
 	max-height: 100%;
 	margin-top: 60px;
 }
 
 .form-login input {
 	padding: 15px 45px;
-	border-radius: 5px;
 	margin: 10px auto;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .checkbox {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .form-login input:focus {
@@ -63,29 +61,33 @@ body {
 
 .form-login input::placeholder {
 	background-color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 .btn {
-	padding: 15px 113px;
+	padding: 12px 100px;
 	background-color: #3f88bb;
 	margin: 10px 0 20px 0;
-	border-radius: 15px;
 	font-size: 18px;
 	letter-spacing: 1px;
 }
 
+.btn:hover,
+.btn-social:hover {
+	cursor: pointer;
+}
+
 .btn a {
-	color: aliceblue;
+	color: white;
 }
 
 .btn-social {
 	background-color: blue;
 	padding: 15px 40px;
-	border-radius: 5px;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 700;
+	margin-bottom: 10px;
 }
 
 .btn-social a {
@@ -93,7 +95,7 @@ body {
 }
 
 .login-forgot {
-	color: aliceblue;
+	color: blue;
 	font-size: 12px;
 }
 
@@ -111,11 +113,10 @@ body {
 	height: 100%;
 }
 
-.header {
+/* .header {
 	height: 100px;
 	width: 100%;
-	margin: 0 auto;
-}
+} */
 
 .nav-link-login {
 	display: flex;
@@ -149,17 +150,16 @@ body {
 }
 
 @media (max-width: 953px) {
-	body {
-		height: auto;
-	}
-
 	.section-login-container {
 		flex-direction: column;
 	}
 
+	.section1 {
+		padding: 85.5px 0;
+	}
+
 	.section2 {
 		justify-content: center;
-		height: auto;
 		justify-content: center;
 		align-items: center;
 	}

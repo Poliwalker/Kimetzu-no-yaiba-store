@@ -1,77 +1,76 @@
-    /* hero */
+/* hero */
 
-    #hero{
-        justify-content: space-between;
-        gap: 20px;
-        padding: 120px 50px;
-    }
-    
-    .s1{
-        padding: 81.5px 0;
-    }
-    
-    .description-container{
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 50%;
-        gap: 40px;
-    
-    }
-    
-    .text-container{
-        max-width:max(20%, 300px);
-    }
-    
-    .text-container h1{
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 45px;
-        margin-bottom: 30px;
-        color: var(--red);
-        font-family: 'Blood Crow';
-    }
-    
-    .text-container p{
-        font-size: 18px;
-        font-weight: 300;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    .hero-img{
-        background-image: url(/Assets/img/hashira_.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-width: 350px;
-        width: 60%;
-        height: 350px;
-        border-radius: 5px;
-    }
-    
-    @media (max-width:998px){
-        .hero-img{
-            display: none;
-        }
-    
-        .description-container{
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .text-container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            gap: 40px;
-        }
-    
-        .text-container{
-            font-family:  'Gloria Hallelujah';
-        }
-    
-        .s1{
-            padding: 65px 0; 
-        }
-    }
+#hero {
+	justify-content: space-between;
+	gap: 20px;
+	padding: 140px 50px 60px;
+}
+
+.s1 {
+	padding: 0px 0 30px 0;
+}
+
+.description-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 50%;
+	gap: 40px;
+}
+
+.text-container {
+	max-width: max(20%, 300px);
+}
+
+.text-container h1 {
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 45px;
+	margin-bottom: 30px;
+	color: var(--red);
+	font-family: 'Blood Crow';
+}
+
+.text-container p {
+	font-size: 18px;
+	font-weight: 300;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero-img {
+	background-image: url(/Assets/img/background-signup-demonslayer.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-width: 350px;
+	width: 500px;
+	height: 300px;
+	border-radius: 5px;
+}
+
+@media (max-width: 998px) {
+	.hero-img {
+		display: none;
+	}
+
+	.description-container {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.text-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		gap: 40px;
+	}
+
+	.text-container {
+		font-family: 'Gloria Hallelujah';
+	}
+
+	#hero {
+		padding: 100px 0;
+	}
+}

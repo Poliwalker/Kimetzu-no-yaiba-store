@@ -29,9 +29,14 @@
 .sponsors ul {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: flex-end;
-	text-align: right;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: left;
+}
+
+.footer-list {
+	width: 100%;
+	display: flex;
 }
 
 .footer-list a {
@@ -54,4 +59,18 @@
 .footer-logo img {
 	width: 30%;
 	border-radius: 10px;
+}
+
+@media (max-width: 738px) {
+	.footer-text p {
+		margin-top: 100px;
+	}
+
+	.sponsors {
+		margin: 100px 0 0 0;
+	}
+
+	.sponsors ul {
+		text-align: center;
+	}
 }
