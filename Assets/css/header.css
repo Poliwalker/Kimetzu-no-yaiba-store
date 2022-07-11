@@ -60,6 +60,10 @@
 	position: relative;
 }
 
+.navbar a:hover {
+	color: white;
+}
+
 .navbar a::after {
 	content: '';
 	height: 3px;

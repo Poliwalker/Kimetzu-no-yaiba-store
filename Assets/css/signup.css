@@ -15,17 +15,12 @@ body {
 	margin: 0 auto;
 	height: 100vh;
 	max-width: 1300px;
-	background-image: url(/Assets/img/fondo-hashira.jpg);
 }
 
 .section-signup-container {
 	max-width: 1000px;
 	margin: 0 auto;
 	height: 100%;
-	background: rgba(102, 82, 255, 0.133);
-	backdrop-filter: blur(3px);
-	box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
-	z-index: 1000;
 }
 
 .header-signup {
@@ -72,11 +67,25 @@ body {
 .form-column-2 label {
 	font-size: 20px;
 	margin: 8px 0;
+	text-align: left;
+	width: 100%;
 }
 
 .form-column-1 input,
 .form-column-2 input {
 	padding: 0.5rem 5rem;
+	border: 1px solid rgb(180, 180, 180);
+}
+
+.form-column-1 input:focus,
+.form-column-2 input:focus {
+	outline: none;
+	background-color: #fff;
+}
+
+.form-column-1 input::placeholder,
+.form-column-2 input::placeholder {
+	background-color: #fff;
 }
 
 .form-column-2 input[type='date'] {
@@ -84,10 +93,8 @@ body {
 	background-size: 30px;
 	background-repeat: no-repeat;
 	background-position: 90%;
-	padding: 0.5rem 5rem;
+	padding: 4.8px 87px;
 	font-size: 18px;
-	font-weight: 700;
-	border: none;
 	color: #000;
 }
 

@@ -7,57 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Demon Slayer</title>
     <link rel="stylesheet" href="/Assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
 
 <body>
-    <div class="section-login-container">
-        <section class="section1">
-            <div class="logo-login"><img src="/Assets/img/logo-principal.png" alt=""></div>
+    <div class="section-container">
+        <section class="section">
+            <div class="login-logo">
+                <img src="/Assets/img/logo-principal.png" alt="">
+                <button><a href="/Assets/html/signup.html">Create una cuenta</a></button>
+            </div>
 
+            <div class="login-form">
+                <h2>Ingresar a su cuenta</h2>
 
-            <form action="" class="form-login">
-                <label for="email"></label>
-                <input type="email" id="email" placeholder="Email:">
+                <form action="">
+                    <div class="field">
+                        <span><i class="fa-solid fa-user"></i></span>
+                        <input type="email" required placeholder="Ingrese su email">
+                    </div>
 
-                <label for="password"></label>
-                <input type="password" id="password" placeholder="Password">
+                    <div class="field">
+                        <span><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" required placeholder="ingrese su contraseña" class="pass-key">
+                        <span class="show">SHOW</span>
+                    </div>
 
-                <div class="checkbox"><input type="checkbox" name="" id="checkbox">
-                    Mantener sesión iniciada
-                </div>
+                    <div class="btns-forgot">
+                        <a href="#">Forgot Password</a>
+                        <input type="button" value="signup">
+                    </div>
 
-                <button class="btn"><a href="#">Login</a></button>
+                    <div class="btns-social">
+                        <div class="btn-twitter">
+                            <span><i class="fa-brands fa-twitter"></i></span>
+                            <a href="">Ingrese con twitter</a>
+                        </div>
 
-                <button class="btn-social"><a href="#">Inciar seccion con Facebook</a></button>
-
-                <a href="#" class="login-forgot">¿A olvidado su contraseña y/o usuario?</a>
-            </form>
-        </section>
-
-        <section class="section2">
-            <header class="header">
-                <nav class="navbar-login">
-                    <ul class="nav-link-login">
-                        <li><a href="">Sign up</a></li>
-                        <li><a href="">Help</a></li>
-                        <li><a href="#">Terminos y condiciones</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <div class="information-login">
-                <h2>Bienvenidos a Demon Slayer</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore nulla aut, error asperiores
-                    pariatur maiores provident inventore assumenda! Fugit quibusdam molestiae repudiandae? Distinctio
-                    eaque, odio sunt ratione animi culpa.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat cum quisquam fugit voluptatum. Ea
-                    sint voluptates rerum porro harum excepturi.</p>
-
-                <div class="slider-nft">
-                </div>
+                        <div class="btn-facebook">
+                            <span><i class="fa-brands fa-facebook-f"></i></span>
+                            <a href="">Ingrese con facebook</a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </div>
