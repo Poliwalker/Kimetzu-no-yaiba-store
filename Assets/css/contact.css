@@ -155,3 +155,20 @@
 	height: 2px;
 	background-color: #0266b6;
 }
+
+@media (max-width: 476px) {
+	.card-contact img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.back-link {
+		width: 200px;
+		height: 200px;
+	}
+
+	.link-signup {
+		width: 200px;
+		height: 200px;
+	}
+}
