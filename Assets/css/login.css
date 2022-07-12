@@ -84,7 +84,14 @@ body {
 	gap: 50px;
 	/* background: url(/Assets/img/tengen.jpg); */
 	border-radius: 0 15px 15px 0;
-	background: #182943;
+	background: rgb(220, 165, 153);
+	background: linear-gradient(
+		132deg,
+		rgba(220, 165, 153, 1) 10%,
+		rgba(147, 106, 97, 1) 20%,
+		rgba(29, 43, 72, 1) 65%,
+		rgba(159, 151, 142, 1) 93%
+	);
 }
 
 .login-form h2 {
