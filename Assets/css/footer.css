@@ -8,7 +8,7 @@
 .footer-description {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items: baseline;
 	flex-wrap: wrap;
 	width: 100%;
 	margin-bottom: 50px;

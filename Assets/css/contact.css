@@ -33,6 +33,10 @@
 	overflow: hidden;
 }
 
+.card-contact img {
+	border-radius: 10px;
+}
+
 .back-link {
 	position: absolute;
 	left: 0;
@@ -46,7 +50,7 @@
 	opacity: 0;
 	transition: all 0.5s ease;
 	width: 350px;
-	height: 400px;
+	height: 100%;
 }
 
 .contact-social {
@@ -90,7 +94,7 @@
 	opacity: 0;
 	transition: all 0.5s ease;
 	width: 350px;
-	height: 400px;
+	height: 100%;
 }
 
 .link-signup p {
@@ -127,7 +131,7 @@
 	opacity: 0;
 	transition: all 0.5s ease;
 	width: 350px;
-	height: 400px;
+	height: 100%;
 }
 
 .link-login p {

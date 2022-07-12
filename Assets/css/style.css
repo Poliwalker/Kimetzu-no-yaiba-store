@@ -42,22 +42,6 @@ body {
 	max-width: 1300px;
 }
 
-button {
-	background-color: var(--bluelight);
-	border: 0px solid black;
-	outline: none;
-	width: 180px;
-	height: 40px;
-	color: white;
-	font-size: 14px;
-	cursor: pointer;
-	transition: all 0.4 linear;
-}
-
-button:hover {
-	background-color: #0d1d49;
-}
-
 .section-title {
 	font-weight: 700;
 	font-size: 40px;
