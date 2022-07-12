@@ -1,4 +1,5 @@
 @import url('https://www.mediafont.com/storage/contents/12471/bloodcrowsci.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Josefin+Sans:wght@500&family=Lobster+Two:ital,wght@1,700&family=Poppins:ital,wght@1,200&display=swap');
 
 * {
 	padding: 0;
@@ -6,6 +7,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+	font-size: 'poppins';
 }
 
 body {
@@ -32,7 +34,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 50px;
 	background: url(/Assets/img/tanjiro.jpg);
 	border-radius: 15px 0 0 15px;
 }
@@ -55,6 +57,21 @@ body {
 	color: white;
 }
 
+.back-link {
+	width: 90%;
+	display: flex;
+	justify-content: start;
+}
+
+.back-link a {
+	color: white;
+	font-size: 20px;
+}
+
+.back-link a:hover {
+	text-decoration: underline;
+}
+
 /* seccion derecha */
 
 .login-form {
@@ -64,9 +81,10 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 70px;
-	background: url(/Assets/img/tengen.jpg);
+	gap: 50px;
+	/* background: url(/Assets/img/tengen.jpg); */
 	border-radius: 0 15px 15px 0;
+	background: #182943;
 }
 
 .login-form h2 {
@@ -75,6 +93,8 @@ body {
 	color: white;
 	max-width: 350px;
 	text-align: center;
+	/* font-family: 'Lobster Two'; */
+	font-weight: 700;
 }
 
 .field {
@@ -128,6 +148,10 @@ body {
 	font-size: 20px;
 }
 
+.btns-forgot a:hover {
+	text-decoration: underline;
+}
+
 .btns-forgot input {
 	font-size: 20px;
 	background-color: transparent;
@@ -178,13 +202,17 @@ body {
 		border-radius: 0 0 0 0;
 		background-repeat: no-repeat;
 		background-size: cover;
+		display: none;
 	}
 
 	.login-form {
 		width: 100%;
+		height: 100vh;
+		background: url(/Assets/img/tengen.jpg);
 		border-radius: 0 0 0 0;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center;
 		padding: 10px;
 	}
 }

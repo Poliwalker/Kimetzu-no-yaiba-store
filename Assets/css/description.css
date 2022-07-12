@@ -29,11 +29,6 @@
 .description-text h2 {
 	margin-bottom: 30px;
 }
-
-.description-text p {
-	font-family: "Impact";
-}
-
 @media (max-width: 991px) {
 	#about-us {
 		justify-content: center;
