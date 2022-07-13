@@ -23,7 +23,7 @@
 
 .card-contact img {
 	width: 350px;
-	height: 400px;
+	height: 420px;
 }
 
 /* primera card */
@@ -162,17 +162,18 @@
 
 @media (max-width: 476px) {
 	.card-contact img {
-		width: 200px;
-		height: 200px;
+		width: 300px;
 	}
 
-	.back-link {
-		width: 200px;
-		height: 200px;
+	.link-login {
+		padding-right: 45px;
 	}
 
 	.link-signup {
-		width: 200px;
-		height: 200px;
+		padding-right: 45px;
+	}
+
+	.back-link {
+		padding-right: 45px;
 	}
 }
