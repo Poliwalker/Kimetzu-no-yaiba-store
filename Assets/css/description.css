@@ -6,7 +6,7 @@
 
 #about-us {
 	justify-content: space-between;
-	padding: 70px 40px;
+	padding: 50px 40px;
 	gap: 60px;
 }
 
@@ -14,7 +14,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 600px;
+}
+
+.description-img img {
+	width: 100%;
 }
 
 .description-text {
@@ -42,7 +45,6 @@
 
 	.description-img img {
 		order: 2;
-		width: 250px;
 	}
 
 	.description-text {

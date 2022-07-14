@@ -54,7 +54,7 @@
 }
 
 .navbar a {
-	color: var(--red);
+	color: var(--blueligth);
 	font-size: 20px;
 	font-family: 'Blood Crow';
 	position: relative;
@@ -68,7 +68,7 @@
 	content: '';
 	height: 3px;
 	width: 100%;
-	background: var(--red);
+	background: var(--grey);
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -84,7 +84,7 @@
 
 .btn-login-singup a {
 	font-size: 22px;
-	border: 2px solid rgb(175, 0, 0);
+	border: 2px solid rgb(255, 255, 255);
 	border-radius: 10px;
 	padding: 2px 10px;
 	background-color: rgb(0, 0, 0);
@@ -92,7 +92,7 @@
 }
 
 .btn-login-singup a:hover {
-	background-color: rgb(175, 0, 0);
+	background-color: rgb(255, 255, 255);
 	color: black;
 	transition: all 0.5s ease;
 }
@@ -112,7 +112,7 @@
 
 	.navbar-list {
 		position: absolute;
-		background-color: var(--black);
+		background-color: #3498db;
 		flex-direction: column;
 		top: 100px;
 		right: 0;

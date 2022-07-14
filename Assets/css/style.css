@@ -13,8 +13,8 @@
 
 :root {
 	--black: #000000;
-	--red: #ed1b24;
-	--bluelight: #0266b6;
+	--grey: rgb(221, 221, 221);
+	--bluelight: #3498db;
 	--green: #3eb782;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .section-container {
-	background-color: var(--black);
+	background-color: var(--bluelight);
 }
 
 .section {

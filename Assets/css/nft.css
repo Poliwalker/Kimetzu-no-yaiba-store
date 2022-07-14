@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script&family=Gloria+Hallelujah&family=Josefin+Sans:wght@500&family=Lobster+Two:ital,wght@1,700&family=Poppins:ital,wght@1,200&display=swap');
 
+@font-face {
+	font-family: 'Gilroy-Bold ☞';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+}
+
 /* cards */
 
 #nft {
@@ -66,6 +73,7 @@
 .card:hover {
 	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.641);
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .card__info {
@@ -77,16 +85,16 @@
 	display: flex;
 	flex-direction: column;
 	gap: 2px;
-	font-family: 'Caveat';
+	font-family: 'Gilroy-Bold ☞';
 	font-weight: 600;
 }
 
 .card__category {
 	text-transform: uppercase;
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 700;
 	color: white;
-	font-family: 'Caveat';
+	font-family: 'Gilroy-Bold ☞';
 	font-weight: 600;
 }
 
@@ -102,7 +110,7 @@
 
 .card:hover .card__info {
 	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.748);
-	color: #ed1c24;
+	color: #d2d2d2;
 	/* transition: all 0.3s ease-in-out; */
 	background: transparent;
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -113,9 +121,9 @@
 }
 
 .card:hover .card__category {
-	color: #ed1c24;
-	font-family: 'Caveat';
-	font-weight: 600;
+	color: #d6d6d6;
+	font-family: 'Gilroy-Bold ☞';
+	font-weight: 700;
 }
 
 /* card--1 */
@@ -260,7 +268,7 @@
 	background: rgb(246, 247, 245);
 	background: linear-gradient(
 		132deg,
-		rgba(246, 247, 245, 1) 14%,
+		rgba(246, 247, 245, 1) 5%,
 		rgba(212, 170, 150, 1) 15%,
 		rgba(58, 67, 69, 1) 18%
 	);

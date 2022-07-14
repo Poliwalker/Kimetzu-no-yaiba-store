@@ -26,7 +26,7 @@
 	font-size: 45px;
 	line-height: 45px;
 	margin-bottom: 30px;
-	color: var(--red);
+	color: var(--grey);
 	font-family: 'Blood Crow';
 }
 
@@ -44,23 +44,6 @@
 	width: 500px;
 	height: 300px;
 	border-radius: 5px;
-}
-
-button {
-	background-color: var(--bluelight);
-	border: 0px solid black;
-	border-radius: 10px;
-	outline: none;
-	width: 180px;
-	height: 40px;
-	color: white;
-	font-size: 14px;
-	cursor: pointer;
-	transition: all 0.4 linear;
-}
-
-button:hover {
-	background-color: #0d1d49;
 }
 
 @media (max-width: 998px) {
