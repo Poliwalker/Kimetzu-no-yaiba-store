@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script&family=Gloria+Hallelujah&family=Josefin+Sans:wght@500&family=Lobster+Two:ital,wght@1,700&family=Poppins:ital,wght@1,200&display=swap');
+
 /* cards */
 
 #nft {
@@ -29,18 +31,17 @@
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 50px;
-	overflow: hidden;
+	padding: 10px auto;
 }
 
 .card__info:hover {
-	padding: 16px;
 	width: 100%;
 	opacity: 1;
 	top: 0;
 	transition: all 0.5s ease-in-out;
 }
 
-*/ .card__img--hover {
+.card__img--hover {
 	width: 100%;
 	height: 150px;
 	top: 0;
@@ -55,37 +56,38 @@
 .card {
 	transition: all 0.5s ease-in-out;
 	background-color: rgb(0, 0, 0);
-	width: 15%;
-	height: 25%;
+	width: 20%;
 	min-width: 300px;
 	position: relative;
 	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
 }
 
 .card:hover {
 	box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.641);
 	transform: scale(1.1);
-	opacity: 0.5;
 }
 
 .card__info {
 	z-index: 1000;
-	background-color: rgb(255, 255, 255);
-	padding: 5px 24px 24px 5px;
+	border-radius: 20px;
+	padding: 10px auto;
 	text-align: center;
-	color: rgb(0, 0, 0);
+	color: white;
 	display: flex;
 	flex-direction: column;
 	gap: 2px;
+	font-family: 'Caveat';
+	font-weight: 600;
 }
 
 .card__category {
 	text-transform: uppercase;
-	font-size: 20px;
-	letter-spacing: 2px;
+	font-size: 25px;
 	font-weight: 700;
-	color: rgb(255, 0, 0);
-	font-family: cursive;
+	color: white;
+	font-family: 'Caveat';
+	font-weight: 600;
 }
 
 .card-title {
@@ -98,22 +100,22 @@
 	text-decoration: none;
 }
 
-.card:hover .card__img--hover {
-	opacity: 1;
-}
 .card:hover .card__info {
 	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.748);
-	color: rgb(255, 34, 34);
-	transition: all 0.5s ease-in-out;
-	background-color: transparent;
-	z-index: 2000;
+	color: #ed1c24;
+	/* transition: all 0.3s ease-in-out; */
+	background: transparent;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	border-radius: 10px 10px 0 0;
+	border-radius: 20px;
 }
 
 .card:hover .card__category {
-	color: #ff0000;
-}
-.card:hover .card__info-hover {
-	opacity: 1;
+	color: #ed1c24;
+	font-family: 'Caveat';
+	font-weight: 600;
 }
 
 /* card--1 */
@@ -125,6 +127,16 @@
 	background-size: cover;
 }
 
+.card--1 > .card__info {
+	background: rgb(26, 73, 86);
+	background: linear-gradient(
+		132deg,
+		rgba(26, 73, 86, 1) 17%,
+		rgba(26, 29, 38, 1) 44%,
+		rgba(41, 59, 109, 1) 67%
+	);
+}
+
 /* card2 */
 
 .card--2 {
@@ -132,6 +144,16 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.card--2 > .card__info {
+	background: rgb(250, 40, 53);
+	background: linear-gradient(
+		132deg,
+		rgba(250, 40, 53, 1) 27%,
+		rgba(116, 52, 77, 1) 37%,
+		rgba(247, 227, 40, 1) 56%
+	);
 }
 
 /* card3 */
@@ -143,12 +165,32 @@
 	background-repeat: no-repeat;
 }
 
+.card--3 > .card__info {
+	background: rgb(252, 254, 187);
+	background: linear-gradient(
+		132deg,
+		rgba(252, 254, 187, 1) 14%,
+		rgba(253, 253, 249, 1) 10%,
+		rgba(80, 30, 31, 1) 80%
+	);
+}
+
 /* card4 */
 .card--4 {
 	background-image: url(https://areajugones.sport.es/wp-content/uploads/2021/05/imagen-2021-05-10-095034-1080x609.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.card--4 > .card__info {
+	background: rgb(160, 92, 120);
+	background: linear-gradient(
+		132deg,
+		rgba(160, 92, 120, 1) 12%,
+		rgba(59, 41, 170, 1) 42%,
+		rgba(38, 43, 81, 1) 71%
+	);
 }
 
 /* card5 */
@@ -159,12 +201,33 @@
 	background-repeat: no-repeat;
 }
 
+.card--5 > .card__info {
+	background: rgb(34, 36, 37);
+	background: linear-gradient(
+		132deg,
+		rgba(34, 36, 37, 1) 42%,
+		rgba(179, 123, 63, 1) 48%,
+		rgba(89, 137, 117, 1) 52%,
+		rgba(247, 247, 247, 1) 90%
+	);
+}
+
 /* card6 */
 .card--6 {
 	background-image: url(https://i.pinimg.com/736x/d3/2b/61/d32b61d3613ab7edd1900d04fcf2d95e.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.card--6 > .card__info {
+	background: rgb(90, 167, 175);
+	background: linear-gradient(
+		132deg,
+		rgba(90, 167, 175, 1) 20%,
+		rgba(21, 34, 50, 1) 48%,
+		rgba(90, 188, 187, 1) 80%
+	);
 }
 
 /* card7 */
@@ -175,6 +238,16 @@
 	background-repeat: no-repeat;
 }
 
+.card--7 > .card__info {
+	background: rgb(252, 198, 223);
+	background: linear-gradient(
+		132deg,
+		rgba(252, 198, 223, 1) 35%,
+		rgba(209, 236, 200, 1) 50%,
+		rgba(208, 223, 121, 1) 64%
+	);
+}
+
 /* card8 */
 .card--8 {
 	background-image: url(https://i.pinimg.com/474x/31/73/9c/31739c9b85424e04a12284ef031f27fa.jpg);
@@ -183,10 +256,30 @@
 	background-repeat: no-repeat;
 }
 
+.card--8 > .card__info {
+	background: rgb(246, 247, 245);
+	background: linear-gradient(
+		132deg,
+		rgba(246, 247, 245, 1) 14%,
+		rgba(212, 170, 150, 1) 15%,
+		rgba(58, 67, 69, 1) 18%
+	);
+}
+
 /* card9 */
 .card--9 {
 	background-image: url(https://www.geekmi.news/__export/1636473596943/sites/debate/img/2021/11/09/gyomei_himejima_x2x.jpg_1902800913.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.card--9 > .card__info {
+	background: rgb(154, 142, 28);
+	background: linear-gradient(
+		132deg,
+		rgba(154, 142, 28, 1) 33%,
+		rgba(163, 15, 12, 1) 46%,
+		rgba(48, 54, 64, 1) 51%
+	);
 }
