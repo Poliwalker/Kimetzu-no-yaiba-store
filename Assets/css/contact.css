@@ -23,7 +23,7 @@
 
 .card-contact img {
 	width: 350px;
-	height: 420px;
+	height: 450px;
 }
 
 /* primera card */
@@ -42,6 +42,7 @@
 	left: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
