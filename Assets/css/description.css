@@ -1,12 +1,8 @@
 /* Description */
 
-/* .s2{
-    background-color: var(--black);
-} */
-
 #about-us {
 	justify-content: space-between;
-	padding: 50px 40px;
+	padding: 95px 40px;
 	gap: 60px;
 }
 

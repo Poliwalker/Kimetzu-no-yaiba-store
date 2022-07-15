@@ -1,0 +1,86 @@
+.developer {
+	padding: 1.5rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	background-color: var(--bluelight);
+	color: #fff;
+	width: 100%;
+}
+
+.poliwalker-end {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.poliwalker-end p {
+	font-family: 'poppins';
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.redes-sociales-pw {
+	width: 100%;
+}
+
+.social-list-pw {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.social-list-pw i {
+	font-size: 20px;
+	color: white;
+	outline: 2px solid #fff;
+	border-radius: 50%;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+.social-list-pw .fa-instagram {
+	background-image: radial-gradient(
+		circle at 30% 107%,
+		#fdf497 0%,
+		#fdf497 5%,
+		#fd5949 45%,
+		#d6249f 60%,
+		#285aeb 90%
+	);
+	outline-color: #a02d76;
+	animation: none;
+	cursor: pointer;
+}
+
+.social-list-pw .fa-twitter {
+	background-color: #1da1f2;
+	outline-color: #1da1f2;
+	animation: none;
+}
+
+.social-list-pw .fa-facebook {
+	background-color: #0d8af0;
+	outline-color: #0d8af0;
+	animation: none;
+}
+
+.social-list-pw .fa-github {
+	background-color: #161b22;
+	outline-color: #161b22;
+}
+
+.social-list-pw .fa-linkedin {
+	background-color: #0270ad;
+	outline-color: #0270ad;
+}
+
+@media (max-width: 578px) {
+	.developer {
+		flex-direction: column;
+		gap: 30px;
+	}
+}
