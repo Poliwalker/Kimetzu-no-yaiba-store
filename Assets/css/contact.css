@@ -19,6 +19,7 @@
 
 .contact-title {
 	text-align: center;
+	color: var(--grey);
 }
 
 .card-contact img {

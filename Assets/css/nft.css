@@ -22,6 +22,7 @@
 	text-align: center;
 	margin-bottom: 20px;
 	font-family: 'Blood Crow' 'Gloria Hallelujah';
+	color: var(--grey);
 }
 
 .card-title p {
@@ -111,11 +112,10 @@
 .card:hover .card__info {
 	box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.748);
 	color: #d2d2d2;
-	/* transition: all 0.3s ease-in-out; */
 	background: transparent;
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-	backdrop-filter: blur(3px);
-	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(1.5px);
+	-webkit-backdrop-filter: blur(1.5px);
 	border-radius: 10px 10px 0 0;
 	border-radius: 20px;
 }

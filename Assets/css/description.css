@@ -27,6 +27,7 @@
 
 .description-text h2 {
 	margin-bottom: 30px;
+	color: var(--grey);
 }
 @media (max-width: 991px) {
 	#about-us {

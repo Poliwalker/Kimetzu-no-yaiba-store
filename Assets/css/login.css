@@ -19,9 +19,9 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
+	height: 90vh;
 	max-width: 900px;
-	margin: 10vh auto;
+	margin: 5vh auto;
 }
 
 /* seccion izquierda */
@@ -36,6 +36,9 @@ body {
 	align-items: center;
 	gap: 50px;
 	background: url(/Assets/img/tanjiro.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	border-radius: 15px 0 0 15px;
 }
 
