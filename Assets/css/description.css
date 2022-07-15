@@ -6,6 +6,10 @@
 	gap: 60px;
 }
 
+.s2 {
+	background-color: rgb(85, 37, 199);
+}
+
 .description-img {
 	display: flex;
 	justify-content: center;
@@ -27,7 +31,11 @@
 
 .description-text h2 {
 	margin-bottom: 30px;
-	color: var(--grey);
+	color: white;
+}
+
+.description-text p {
+	color: white;
 }
 @media (max-width: 991px) {
 	#about-us {

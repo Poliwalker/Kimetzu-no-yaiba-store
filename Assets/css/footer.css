@@ -5,6 +5,11 @@
 	flex-direction: column;
 }
 
+.sf {
+	background-color: black;
+	color: white;
+}
+
 .section-title {
 	text-align: center;
 	color: var(--grey);
@@ -12,6 +17,7 @@
 
 .section {
 	padding: 20px 0px;
+	color: white;
 }
 
 .footer-description {

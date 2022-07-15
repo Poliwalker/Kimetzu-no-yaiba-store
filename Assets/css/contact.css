@@ -9,6 +9,11 @@
 	width: 100%;
 }
 
+.s4 {
+	background-color: white;
+	color: #000000;
+}
+
 .card-contact-container {
 	display: flex;
 	justify-content: center;
@@ -17,9 +22,9 @@
 	gap: 50px;
 }
 
-.contact-title {
+.contact-title h2 {
 	text-align: center;
-	color: var(--grey);
+	color: black;
 }
 
 .card-contact img {

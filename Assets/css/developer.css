@@ -4,8 +4,9 @@
 	justify-content: space-evenly;
 	align-items: baseline;
 	background-color: var(--bluelight);
-	color: #fff;
+	color: rgb(0, 0, 0);
 	width: 100%;
+	background-color: #fff;
 }
 
 .poliwalker-end {

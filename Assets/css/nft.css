@@ -18,6 +18,10 @@
 	width: 100%;
 }
 
+.s3 {
+	background-color: rgb(124, 67, 255);
+}
+
 .card-title h2 {
 	text-align: center;
 	margin-bottom: 20px;

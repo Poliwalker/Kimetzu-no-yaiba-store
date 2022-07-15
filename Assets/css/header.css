@@ -11,6 +11,10 @@
 }
 
 .header-container {
+	background-color: rgb(85, 37, 199);
+}
+
+.header-container {
 	position: sticky;
 	top: 0;
 	z-index: 9999;
@@ -113,7 +117,7 @@
 
 	.navbar-list {
 		position: absolute;
-		background-color: #3498db;
+		background-color: rgb(85, 37, 199);
 		flex-direction: column;
 		top: 100px;
 		right: 0;
@@ -125,5 +129,9 @@
 
 	#toggle-menu:checked + .navbar-list {
 		display: flex;
+	}
+
+	.btn-login-singup a {
+		padding: 5px 15px;
 	}
 }
