@@ -10,6 +10,10 @@
 	color: var(--grey);
 }
 
+.section {
+	padding: 20px 0px;
+}
+
 .footer-description {
 	display: flex;
 	justify-content: space-around;
