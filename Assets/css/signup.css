@@ -18,7 +18,7 @@ body {
 
 .section__container {
 	margin: 5vh auto;
-	height: 90vh;
+	height: 100%;
 	max-width: 1000px;
 }
 
